@@ -21,7 +21,7 @@ export default {
 		extend: {
 			fontFamily: {
 				'poppins': ['Poppins', 'sans-serif'],
-				'playfair': ['Playfair Display', 'serif'],
+				'roboto': ['Roboto', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -68,7 +68,7 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				// Custom colors for MJ Locações
-				"mj-yellow": "#FFD700",
+				"mj-yellow": "#000000",  // Changed from #FFD700 to black
 				"mj-wine": "#722F37",
 				"mj-light-wine": "#8A3B46",
 				"mj-gray": "#F8F8F8"
