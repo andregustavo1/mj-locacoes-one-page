@@ -1,5 +1,5 @@
 
-import { Tent, ChairFront, Shirt, Users, Check } from 'lucide-react';
+import { Tent, Armchair, Shirt, Users, Check } from 'lucide-react';
 
 const ServiceCard = ({ 
   icon: Icon, 
@@ -43,7 +43,7 @@ const ServicesSection = () => {
           />
           
           <ServiceCard 
-            icon={ChairFront}
+            icon={Armchair}
             title="Mesas e Cadeiras"
             description="Mesas e cadeiras de plástico limpas e em excelente estado, entregues no horário combinado."
             delay="0.2s"
