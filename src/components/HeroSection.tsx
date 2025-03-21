@@ -17,9 +17,9 @@ const HeroSection = () => {
     <section id="inicio" className="relative h-screen w-full overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-mj-wine/30 z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/90 to-mj-wine/30 z-10"></div>
         <div 
-          className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80')] 
+          className="absolute inset-0 bg-[url('/public/img.jpeg')] 
           bg-cover bg-center z-0"
         ></div>
       </div>

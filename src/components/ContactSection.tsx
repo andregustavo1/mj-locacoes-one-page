@@ -26,45 +26,44 @@ const ContactSection = () => {
               
               <div className="space-y-8">
                 <div className="flex gap-4">
-                  <div className="p-4 bg-mj-yellow/10 rounded-lg h-min">
-                    <Phone className="text-mj-yellow" size={24} />
+                  <div className="p-4 bg-mj-yellow/50 rounded-lg h-min">
+                    <Phone className="text-black" size={24} />
                   </div>
                   <div>
                     <h4 className="font-bold text-mj-wine mb-1">Telefone / WhatsApp</h4>
                     <p className="text-gray-700 mb-2">(61) 98503-8892</p>
-                    <button onClick={openWhatsApp} className="text-sm text-mj-wine hover:text-mj-yellow transition-colors font-medium">
+                    <button onClick={openWhatsApp} className="text-sm text-mj-wine hover:text-black transition-colors font-medium">
                       Conversar via WhatsApp →
                     </button>
                   </div>
                 </div>
                 
                 <div className="flex gap-4">
-                  <div className="p-4 bg-mj-yellow/10 rounded-lg h-min">
-                    <Mail className="text-mj-yellow" size={24} />
+                  <div className="p-4 bg-mj-yellow/50 rounded-lg h-min">
+                    <Mail className="text-black" size={24} />
                   </div>
                   <div>
                     <h4 className="font-bold text-mj-wine mb-1">E-mail</h4>
                     <p className="text-gray-700 mb-2">mjlocacoesbsb@gmail.com</p>
-                    <button onClick={sendEmail} className="text-sm text-mj-wine hover:text-mj-yellow transition-colors font-medium">
+                    <button onClick={sendEmail} className="text-sm text-mj-wine hover:text-black transition-colors font-medium">
                       Enviar um e-mail →
                     </button>
                   </div>
                 </div>
                 
                 <div className="flex gap-4">
-                  <div className="p-4 bg-mj-yellow/10 rounded-lg h-min">
-                    <Clock className="text-mj-yellow" size={24} />
+                  <div className="p-4 bg-mj-yellow/50 rounded-lg h-min">
+                    <Clock className="text-black" size={24} />
                   </div>
                   <div>
                     <h4 className="font-bold text-mj-wine mb-1">Horário de Atendimento</h4>
-                    <p className="text-gray-700">Segunda a Domingo (incluindo feriados)</p>
                     <p className="text-gray-700">Das 8h às 18h</p>
                   </div>
                 </div>
                 
                 <div className="flex gap-4">
-                  <div className="p-4 bg-mj-yellow/10 rounded-lg h-min">
-                    <MapPin className="text-mj-yellow" size={24} />
+                  <div className="p-4 bg-mj-yellow/50 rounded-lg h-min">
+                    <MapPin className="text-black" size={24} />
                   </div>
                   <div>
                     <h4 className="font-bold text-mj-wine mb-1">Área de Cobertura</h4>

@@ -15,8 +15,8 @@ const ServiceCard = ({
   return (
     <div className="glass-card p-8 transition-all duration-300 hover:shadow-xl hover:-translate-y-2 reveal" style={{ animationDelay: delay }}>
       <div className="flex flex-col items-center text-center">
-        <div className="p-4 bg-mj-yellow/10 rounded-full mb-6">
-          <Icon className="text-mj-yellow" size={32} />
+        <div className="p-4 bg-mj-yellow/50 rounded-full mb-6">
+          <Icon className="text-black" size={32} />
         </div>
         <h3 className="text-xl font-bold text-mj-wine mb-4">{title}</h3>
         <p className="text-gray-600">{description}</p>
@@ -71,32 +71,32 @@ const ServicesSection = () => {
               <h3 className="text-2xl font-bold text-mj-wine mb-4">Por que escolher nossos serviços?</h3>
               <ul className="space-y-3">
                 <li className="flex items-center gap-3">
-                  <div className="h-6 w-6 rounded-full bg-mj-yellow/20 flex items-center justify-center">
-                    <Check size={14} className="text-mj-yellow" />
+                  <div className="h-6 w-6 rounded-full bg-mj-yellow/50 flex items-center justify-center">
+                    <Check size={14} className="text-black" />
                   </div>
                   <span className="text-gray-700">Material limpo e de qualidade</span>
                 </li>
                 <li className="flex items-center gap-3">
-                  <div className="h-6 w-6 rounded-full bg-mj-yellow/20 flex items-center justify-center">
-                    <Check size={14} className="text-mj-yellow" />
+                  <div className="h-6 w-6 rounded-full bg-mj-yellow/50 flex items-center justify-center">
+                    <Check size={14} className="text-black" />
                   </div>
                   <span className="text-gray-700">Entrega e montagem pontuais</span>
                 </li>
                 <li className="flex items-center gap-3">
-                  <div className="h-6 w-6 rounded-full bg-mj-yellow/20 flex items-center justify-center">
-                    <Check size={14} className="text-mj-yellow" />
+                  <div className="h-6 w-6 rounded-full bg-mj-yellow/50 flex items-center justify-center">
+                    <Check size={14} className="text-black" />
                   </div>
                   <span className="text-gray-700">Atendimento personalizado</span>
                 </li>
                 <li className="flex items-center gap-3">
-                  <div className="h-6 w-6 rounded-full bg-mj-yellow/20 flex items-center justify-center">
-                    <Check size={14} className="text-mj-yellow" />
+                  <div className="h-6 w-6 rounded-full bg-mj-yellow/50 flex items-center justify-center">
+                    <Check size={14} className="text-black" />
                   </div>
                   <span className="text-gray-700">Preços justos e competitivos</span>
                 </li>
                 <li className="flex items-center gap-3">
-                  <div className="h-6 w-6 rounded-full bg-mj-yellow/20 flex items-center justify-center">
-                    <Check size={14} className="text-mj-yellow" />
+                  <div className="h-6 w-6 rounded-full bg-mj-yellow/50 flex items-center justify-center">
+                    <Check size={14} className="text-black" />
                   </div>
                   <span className="text-gray-700">Disponibilidade em todos os dias</span>
                 </li>

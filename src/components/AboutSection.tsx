@@ -31,8 +31,8 @@ const AboutSection = () => {
             {/* Features */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-mj-yellow/10 rounded-lg">
-                  <Calendar className="text-mj-yellow" size={24} />
+                <div className="p-3 bg-mj-yellow/50 rounded-lg">
+                  <Calendar className="text-black" size={24} />
                 </div>
                 <div>
                   <h4 className="font-bold text-mj-wine mb-1">Disponibilidade</h4>
@@ -41,8 +41,8 @@ const AboutSection = () => {
               </div>
               
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-mj-yellow/10 rounded-lg">
-                  <MapPin className="text-mj-yellow" size={24} />
+                <div className="p-3 bg-mj-yellow/50 rounded-lg">
+                  <MapPin className="" size={24} />
                 </div>
                 <div>
                   <h4 className="font-bold text-mj-wine mb-1">Cobertura</h4>
@@ -51,8 +51,8 @@ const AboutSection = () => {
               </div>
               
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-mj-yellow/10 rounded-lg">
-                  <Clock className="text-mj-yellow" size={24} />
+                <div className="p-3 bg-mj-yellow/50 rounded-lg">
+                  <Clock className="" size={24} />
                 </div>
                 <div>
                   <h4 className="font-bold text-mj-wine mb-1">Horário</h4>
@@ -61,8 +61,8 @@ const AboutSection = () => {
               </div>
               
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-mj-yellow/10 rounded-lg">
-                  <Check className="text-mj-yellow" size={24} />
+                <div className="p-3 bg-mj-yellow/50 rounded-lg">
+                  <Check className="" size={24} />
                 </div>
                 <div>
                   <h4 className="font-bold text-mj-wine mb-1">Qualidade</h4>

@@ -14,7 +14,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-mj-wine text-white">
+    <footer className="bg-[#121212] text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Logo and About */}
@@ -91,7 +91,6 @@ const Footer = () => {
                   <Clock size={18} className="text-mj-yellow" />
                 </div>
                 <div className="text-white/80">
-                  <p>Segunda a Domingo</p>
                   <p>Das 8h às 18h</p>
                 </div>
               </li>

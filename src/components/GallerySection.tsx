@@ -80,7 +80,7 @@ const GallerySection = () => {
           <p className="section-subtitle">Confira alguns dos eventos que já realizamos</p>
         </div>
         
-        {/* Filter buttons */}
+        {/* Filter buttons
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           <button 
             onClick={() => setActiveFilter('all')}
@@ -132,7 +132,7 @@ const GallerySection = () => {
           >
             Eventos
           </button>
-        </div>
+        </div> */}
         
         {/* Gallery grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
