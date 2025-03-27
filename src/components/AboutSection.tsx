@@ -14,7 +14,7 @@ const AboutSection = () => {
           {/* Left side - Image */}
           <div className="overflow-hidden rounded-2xl shadow-lg h-[500px] reveal">
             <div 
-              className="w-full h-full bg-[url('https://images.unsplash.com/photo-1508997449629-303059a039c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3620&q=80')] 
+              className="w-full h-full bg-[url('/images/2.png')] 
               bg-cover bg-center transition-transform duration-700 hover:scale-110"
             ></div>
           </div>

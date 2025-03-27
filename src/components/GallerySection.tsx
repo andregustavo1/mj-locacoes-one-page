@@ -6,49 +6,49 @@ import { X } from 'lucide-react';
 const galleryImages = [
   {
     id: 1,
-    url: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3598&q=80',
+    url: '/images/1.png',
     alt: 'Tenda montada para festa',
     category: 'tendas'
   },
   {
     id: 2,
-    url: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80',
+    url: '/images/2.png',
     alt: 'Evento com mesas e cadeiras',
     category: 'mesas'
   },
   {
     id: 3,
-    url: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3500&q=80',
+    url: '/images/11.png',
     alt: 'Casamento sob tenda',
     category: 'tendas'
   },
   {
     id: 4,
-    url: 'https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80',
+    url: '/images/3.png',
     alt: 'Mesas decoradas',
     category: 'mesas'
   },
   {
     id: 5,
-    url: 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80',
+    url: '/images/4.png',
     alt: 'Evento corporativo',
     category: 'eventos'
   },
   {
     id: 6,
-    url: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80',
+    url: '/images/5.png',
     alt: 'Festa de aniversário',
     category: 'eventos'
   },
   {
     id: 7,
-    url: 'https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3537&q=80',
+    url: '/images/6.png',
     alt: 'Cadeiras para cerimônia',
     category: 'cadeiras'
   },
   {
     id: 8,
-    url: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80',
+    url: '/images/7.png',
     alt: 'Tenda para evento',
     category: 'tendas'
   },

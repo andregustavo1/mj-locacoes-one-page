@@ -105,7 +105,7 @@ const ServicesSection = () => {
             
             <div className="h-full overflow-hidden rounded-xl">
               <div 
-                className="w-full h-64 md:h-full bg-[url('https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80')] 
+                className="w-full h-64 md:h-full bg-[url('/images/3.png')] 
                 bg-cover bg-center img-zoom"
               ></div>
             </div>

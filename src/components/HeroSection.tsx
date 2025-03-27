@@ -19,7 +19,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-black/90 to-mj-wine/30 z-10"></div>
         <div 
-          className="absolute inset-0 bg-[url('/public/img.jpeg')] 
+          className="absolute inset-0 bg-[url('/images/1.png')] 
           bg-cover bg-center z-0"
         ></div>
       </div>

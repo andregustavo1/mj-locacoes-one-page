@@ -77,7 +77,7 @@ const ContactSection = () => {
             <div className="glass-card rounded-2xl overflow-hidden shadow-lg reveal" style={{ animationDelay: '0.3s' }}>
               <div className="h-64 w-full">
                 <div 
-                  className="w-full h-full bg-[url('https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80')] 
+                  className="w-full h-full bg-[url('/images/12.png')] 
                   bg-cover bg-center"
                 ></div>
               </div>
