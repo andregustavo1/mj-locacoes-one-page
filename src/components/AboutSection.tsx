@@ -13,9 +13,9 @@ const AboutSection = () => {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Image */}
-          <div className="overflow-hidden rounded-2xl shadow-lg h-[500px] reveal">
+          <div className="overflow-hidden rounded-2xl shadow-lg h-full reveal">
             <div 
-              className="w-full h-full bg-[url('/lovable-uploads/9413e1dc-2ef4-44ab-bb36-20bfdc958dab.png')] 
+              className="w-full h-full bg-[url('images/99.png')] 
               bg-cover bg-center transition-transform duration-700 hover:scale-110"
             ></div>
           </div>
