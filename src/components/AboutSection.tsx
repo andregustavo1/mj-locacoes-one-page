@@ -1,5 +1,6 @@
 
 import { Calendar, MapPin, Clock, Check } from 'lucide-react';
+import { Separator } from '@/components/ui/separator';
 
 const AboutSection = () => {
   return (
@@ -14,7 +15,7 @@ const AboutSection = () => {
           {/* Left side - Image */}
           <div className="overflow-hidden rounded-2xl shadow-lg h-[500px] reveal">
             <div 
-              className="w-full h-full bg-[url('/images/2.png')] 
+              className="w-full h-full bg-[url('/lovable-uploads/9413e1dc-2ef4-44ab-bb36-20bfdc958dab.png')] 
               bg-cover bg-center transition-transform duration-700 hover:scale-110"
             ></div>
           </div>
@@ -23,9 +24,8 @@ const AboutSection = () => {
           <div className="reveal" style={{ animationDelay: '0.2s' }}>
             <h3 className="text-2xl font-bold text-mj-wine mb-6">Excelência em Locação para Eventos</h3>
             <p className="text-gray-700 mb-8 leading-relaxed">
-              A MJ Locações é especializada no aluguel de tendas piramidais, mesas e cadeiras de plástico, e toalhas, 
-              com serviço de montagem e desmontagem em todo o território do DF e entorno. Garantimos entregas pontuais 
-              e materiais limpos, com disponibilidade todos os dias, inclusive feriados e até a noite.
+              Na MJ Locações estamos comprometidos em servir com excelência, oferecendo soluções que trazem 
+              tranquilidade e sucesso para você. Estamos com você em cada passo!
             </p>
             
             {/* Features */}

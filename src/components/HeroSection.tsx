@@ -44,8 +44,8 @@ const HeroSection = () => {
               Fale via WhatsApp
               <ArrowRight size={20} />
             </button>
-            <button onClick={() => scrollToSection('servicos')} className="btn-secondary flex items-center justify-center gap-2">
-              Nossos Serviços
+            <button onClick={() => scrollToSection('valores')} className="btn-secondary flex items-center justify-center gap-2">
+              Nossos Valores
               <ArrowRight size={20} />
             </button>
           </div>

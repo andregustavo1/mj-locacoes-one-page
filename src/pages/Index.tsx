@@ -3,13 +3,13 @@ import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import AboutSection from '@/components/AboutSection';
+import ValuesSection from '@/components/ValuesSection';
 import ServicesSection from '@/components/ServicesSection';
 import GallerySection from '@/components/GallerySection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import ScrollReveal from '@/components/ScrollReveal';
-import { Clock } from 'lucide-react';
 
 const Index = () => {
   // Update document title
@@ -27,6 +27,7 @@ const Index = () => {
         <HeroSection />
         <AboutSection />
         <ServicesSection />
+        <ValuesSection />
         <GallerySection />
         <ContactSection />
       </main>
